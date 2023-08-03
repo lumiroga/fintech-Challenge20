@@ -20,7 +20,7 @@ To program, a web IDE is used, Remix: [REMIX](https://remix.ethereum.org/)
 
 Contract is deployed to the Ethereum network.
 
-<img src="Images/Deplot_contract.png" >
+<img src="Execution_Results/Deplot_contract.png" >
 
 After deploying the contract, the functionality is tested:
 
@@ -35,7 +35,41 @@ The functions include:
 
 ### Testing the functions.
 
-* 
+* setAccounts - Setting internal savings accounts.
+
+<img src="Execution_Results/setAccounts.png" >
+
+* Deposit - Deposit ETH to the contract
+
+    * Deposit 1 ETH 
+    <img src="Execution_Results/deposit_1_eth.png" >
+
+    * Deposit 10 ETH 
+    <img src="Execution_Results/deposit_10_eth.png" >
+    * Deposit 5 ETH 
+    <img src="Execution_Results/deposit_5_eth.png" >
+
+* Withdraw - Withdraws from contact into one of the two savings accounts
+    * Withdraw 5 ETH into accountOne
+    <img src="Execution_Results/withdraw_first_address._5ETH.png" >
+
+    *Withdraw 10 ETH into accountTwo
+    <img src="Execution_Results/withdraw_second_address._10ETH.png" >
+
+* Last To Withdraw
+
+<img src="Execution_Results/lastToWithdraw.png" >
+
+
+* Last Withdraw Amount
+
+<img src="Execution_Results/lastwithdrawal.png" >
+
+### Transaction List
+
+The whole list of transactions is in the following file:
+
+[Transaction File](./transactions.json)
 
 ---
 
@@ -71,4 +105,4 @@ git clone https://github.com/lumiroga/fintech-challenge20.git
 
 ## License
 
-* mpl-2.0 | Mozilla Public License 2.0
+* apache-2.0 | Apache License 2.0
