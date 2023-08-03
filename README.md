@@ -20,7 +20,7 @@ To program, a web IDE is used, Remix: [REMIX](https://remix.ethereum.org/)
 
 Contract is deployed to the Ethereum network.
 
-<img src="Execution_Results/Deplot_contract.png" >
+<img src="Execution_Results/Deploy_contract.png" >
 
 After deploying the contract, the functionality is tested:
 
@@ -53,7 +53,7 @@ The functions include:
     * Withdraw 5 ETH into accountOne
     <img src="Execution_Results/withdraw_first_address._5ETH.png" >
 
-    *Withdraw 10 ETH into accountTwo
+    * Withdraw 10 ETH into accountTwo
     <img src="Execution_Results/withdraw_second_address._10ETH.png" >
 
 * Last To Withdraw
